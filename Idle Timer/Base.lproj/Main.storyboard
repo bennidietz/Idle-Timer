@@ -36,23 +36,72 @@
                                     <action selector="actionButtonHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CEz-aH-Ctt"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="sjD-9O-JZD">
+                                <rect key="frame" x="0.0" y="44" width="375" height="62.333333333333343"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tree5" translatesAutoresizingMaskIntoConstraints="NO" id="DYI-ym-qqf">
+                                        <rect key="frame" x="0.0" y="0.0" width="62.333333333333336" height="62.333333333333336"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="DYI-ym-qqf" secondAttribute="height" multiplier="1:1" id="bjs-lr-m7K"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tree5" translatesAutoresizingMaskIntoConstraints="NO" id="sCM-67-A4l">
+                                        <rect key="frame" x="78.333333333333329" y="0.0" width="61.999999999999986" height="62.333333333333336"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="sCM-67-A4l" secondAttribute="height" multiplier="1:1" id="bwh-80-nS8"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tree5" translatesAutoresizingMaskIntoConstraints="NO" id="uGj-9Y-whf">
+                                        <rect key="frame" x="156.33333333333334" y="0.0" width="62.333333333333343" height="62.333333333333336"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="uGj-9Y-whf" secondAttribute="height" multiplier="1:1" id="T0V-kF-nYr"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tree5" translatesAutoresizingMaskIntoConstraints="NO" id="N4k-Gt-CQv">
+                                        <rect key="frame" x="234.66666666666663" y="0.0" width="62" height="62.333333333333336"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="N4k-Gt-CQv" secondAttribute="height" multiplier="1:1" id="A0z-7F-bir"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tree5" translatesAutoresizingMaskIntoConstraints="NO" id="P7t-XT-Ndp">
+                                        <rect key="frame" x="312.66666666666669" y="0.0" width="62.333333333333314" height="62.333333333333336"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="P7t-XT-Ndp" secondAttribute="height" multiplier="1:1" id="iVf-1Q-8eu"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="uGj-9Y-whf" firstAttribute="width" secondItem="uGj-9Y-whf" secondAttribute="height" multiplier="1:1" id="1Yy-qq-TUe"/>
+                                    <constraint firstItem="P7t-XT-Ndp" firstAttribute="width" secondItem="P7t-XT-Ndp" secondAttribute="height" multiplier="1:1" id="3gR-vj-DmH"/>
+                                    <constraint firstItem="sCM-67-A4l" firstAttribute="width" secondItem="sCM-67-A4l" secondAttribute="height" multiplier="1:1" id="F9b-KM-RPo"/>
+                                    <constraint firstItem="N4k-Gt-CQv" firstAttribute="width" secondItem="N4k-Gt-CQv" secondAttribute="height" multiplier="1:1" id="LFw-Rf-rVK"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="DefaultGreen"/>
                         <constraints>
                             <constraint firstItem="Bi0-RP-4nz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1ly-AI-pNZ"/>
                             <constraint firstItem="aiW-Kd-tdR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="8nE-p2-dki"/>
+                            <constraint firstItem="sjD-9O-JZD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="BK4-to-Xbl"/>
                             <constraint firstItem="Bi0-RP-4nz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FA9-Qj-D5S"/>
                             <constraint firstItem="Bi0-RP-4nz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kut-j8-L2O"/>
                             <constraint firstItem="Bi0-RP-4nz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Pbx-5v-iu0"/>
                             <constraint firstItem="aiW-Kd-tdR" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="YTg-pb-ZXY"/>
+                            <constraint firstItem="sjD-9O-JZD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bQH-Nn-XtM"/>
                             <constraint firstItem="aiW-Kd-tdR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qtA-lM-B3u"/>
+                            <constraint firstItem="sjD-9O-JZD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="w82-Zz-iDX"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="actionButton" destination="aiW-Kd-tdR" id="qq7-PP-TTy"/>
                         <outlet property="mainTreeImageView" destination="Bi0-RP-4nz" id="KJ7-PL-IJS"/>
                         <outlet property="widthConstraint" destination="z7Y-2f-w0u" id="j2f-ni-WSE"/>
+                        <outletCollection property="treeThumbnails" destination="DYI-ym-qqf" collectionClass="NSMutableArray" id="bTt-uT-knc"/>
+                        <outletCollection property="treeThumbnails" destination="sCM-67-A4l" collectionClass="NSMutableArray" id="Uiv-RP-ud6"/>
+                        <outletCollection property="treeThumbnails" destination="uGj-9Y-whf" collectionClass="NSMutableArray" id="0ax-Oy-x4F"/>
+                        <outletCollection property="treeThumbnails" destination="N4k-Gt-CQv" collectionClass="NSMutableArray" id="hpG-O0-Du6"/>
+                        <outletCollection property="treeThumbnails" destination="P7t-XT-Ndp" collectionClass="NSMutableArray" id="acf-35-Zaz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -62,6 +111,7 @@
     </scenes>
     <resources>
         <image name="Tree1" width="500" height="961.5"/>
+        <image name="Tree5" width="500" height="836.5"/>
         <namedColor name="DefaultGreen">
             <color red="0.0" green="0.5607843137254902" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
