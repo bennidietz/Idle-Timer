@@ -31,7 +31,7 @@ class ViewController: UIViewController {
             widthConstraint.constant += widthConstraint.constant * 0.5
             mainTreeImageView.image = image
         } else if let image = UIImage(named: "Tree1") {
-            if grownTrees == 5 {
+            if grownTrees >= treeThumbnails.count {
                 resetApp()
             } else {
                 treeThumbnails[grownTrees].alpha = 1.0
@@ -40,6 +40,12 @@ class ViewController: UIViewController {
                 mainTreeImageView.image = image
                 currentTree = 1
             }
+        }
+    }
+    
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        if motion == .motionShake {
+            actionButtonHandler(UIButton())
         }
     }
     
